@@ -1,0 +1,544 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "testuser",
+      "password": "testpassword"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "1732351642438",
+      "username": "saksham",
+      "email": "sainisaksham577@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1732367381975",
+      "username": "saksham",
+      "email": "sainisaksham577@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1732368956219",
+      "username": "jatin ",
+      "email": "sakshamsaini6667@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1732400024826",
+      "username": "Saksham Saini",
+      "email": "sainisaksham577@gmail.com",
+      "password": "123"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Programming",
+      "courses": [
+        {
+          "id": 1,
+          "title": "Build Responsive Real-World Websites with HTML and CSS",
+          "image": "https://media-public.canva.com/46xVk/MAESn246xVk/1/t.png",
+          "duration": "3 Weeks",
+          "level": "Beginner",
+          "rating": 5,
+          "totalRatings": 7,
+          "price": 29,
+          "lessons": 8,
+          "students": 20
+        },
+        {
+          "id": 2,
+          "title": "Java Programming Masterclass for Software Developers",
+          "image": "https://media-public.canva.com/ROiQU/MAF9-kROiQU/1/t.png",
+          "duration": "8 Weeks",
+          "level": "Advanced",
+          "rating": 4.5,
+          "totalRatings": 9,
+          "price": 49,
+          "lessons": 15,
+          "students": 35
+        },
+        {
+          "id": 3,
+          "title": "The Complete Python Bootcamp: Go From Zero to Hero",
+          "image": "https://media-public.canva.com/aoGf0/MAGORUaoGf0/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Intermediate",
+          "rating": 4.8,
+          "totalRatings": 20,
+          "price": 45,
+          "lessons": 12,
+          "students": 40
+        },
+        {
+          "id": 4,
+          "title": "Mastering Algorithms with C++",
+          "image": "https://media-public.canva.com/MADnA7ZIw0A/1/thumbnail.png",
+          "duration": "5 Weeks",
+          "level": "Advanced",
+          "rating": 4.7,
+          "totalRatings": 15,
+          "price": 39,
+          "lessons": 10,
+          "students": 22
+        },
+        {
+          "id": 5,
+          "title": "Introduction to Machine Learning with Python",
+          "image": "https://media-public.canva.com/eTYIs/MAF9xVeTYIs/1/t.png",
+          "duration": "7 Weeks",
+          "level": "Intermediate",
+          "rating": 4.9,
+          "totalRatings": 25,
+          "price": 55,
+          "lessons": 18,
+          "students": 30
+        },
+        {
+          "id": 6,
+          "title": "Building RESTful APIs with Node.js",
+          "image": "https://media-public.canva.com/MADnBudZ_W8/3/thumbnail.png",
+          "duration": "4 Weeks",
+          "level": "Beginner",
+          "rating": 4.6,
+          "totalRatings": 12,
+          "price": 35,
+          "lessons": 9,
+          "students": 25
+        },
+        {
+          "id": 7,
+          "title": "Advanced JavaScript Concepts",
+          "image": "https://media-public.canva.com/OjpgI/MAF9-rOjpgI/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Advanced",
+          "rating": 4.7,
+          "totalRatings": 18,
+          "price": 40,
+          "lessons": 14,
+          "students": 28
+        },
+        {
+          "id": 8,
+          "title": "Full-Stack Web Development with React and Django",
+          "image": "https://media-public.canva.com/MADnBjhFiuI/3/thumbnail.png",
+          "duration": "9 Weeks",
+          "level": "Advanced",
+          "rating": 4.8,
+          "totalRatings": 30,
+          "price": 60,
+          "lessons": 20,
+          "students": 50
+        },
+        {
+          "id": 9,
+          "title": "Learn Data Structures and Algorithms in JavaScript",
+          "image": "https://media-public.canva.com/DQiws/MAGLu9DQiws/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Intermediate",
+          "rating": 4.5,
+          "totalRatings": 17,
+          "price": 50,
+          "lessons": 13,
+          "students": 35
+        },
+        {
+          "id": 10,
+          "title": "Understanding Cloud Computing with AWS",
+          "image": "https://media-public.canva.com/_meLk/MAFaly_meLk/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Beginner",
+          "rating": 4.6,
+          "totalRatings": 10,
+          "price": 42,
+          "lessons": 10,
+          "students": 18
+        }
+      ],
+      "id": "3d23"
+    },
+    {
+      "title": "Designing",
+      "courses": [
+        {
+          "id": 1,
+          "title": "Adobe Photoshop Essentials for Beginners",
+          "image": "https://media-public.canva.com/lG60k/MAFSTrlG60k/1/t.png",
+          "duration": "3 Weeks",
+          "level": "Beginner",
+          "rating": 4.8,
+          "totalRatings": 20,
+          "price": 29,
+          "lessons": 8,
+          "students": 30
+        },
+        {
+          "id": 2,
+          "title": "UI/UX Design Principles for Modern Applications",
+          "image": "https://media-public.canva.com/b-bp4/MAE-rOb-bp4/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Intermediate",
+          "rating": 4.7,
+          "totalRatings": 25,
+          "price": 40,
+          "lessons": 12,
+          "students": 45
+        },
+        {
+          "id": 3,
+          "title": "Mastering Adobe Illustrator: From Beginner to Pro",
+          "image": "https://media-public.canva.com/KhS0I/MAFSG5KhS0I/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Intermediate",
+          "rating": 4.9,
+          "totalRatings": 30,
+          "price": 35,
+          "lessons": 10,
+          "students": 40
+        },
+        {
+          "id": 4,
+          "title": "Introduction to 3D Modeling with Blender",
+          "image": "https://media-public.canva.com/v4o6M/MADgvkv4o6M/2/t.png",
+          "duration": "7 Weeks",
+          "level": "Advanced",
+          "rating": 4.6,
+          "totalRatings": 18,
+          "price": 50,
+          "lessons": 15,
+          "students": 25
+        },
+        {
+          "id": 5,
+          "title": "Typography and Graphic Design Fundamentals",
+          "image": "https://media-public.canva.com/2-US8/MAFcey2-US8/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Beginner",
+          "rating": 4.7,
+          "totalRatings": 22,
+          "price": 28,
+          "lessons": 9,
+          "students": 35
+        },
+        {
+          "id": 6,
+          "title": "Creative Motion Graphics with After Effects",
+          "image": "https://media-public.canva.com/R3nvc/MAD2ZvR3nvc/1/t.png",
+          "duration": "8 Weeks",
+          "level": "Advanced",
+          "rating": 4.8,
+          "totalRatings": 27,
+          "price": 60,
+          "lessons": 14,
+          "students": 50
+        },
+        {
+          "id": 7,
+          "title": "Creating Stunning Presentations with Canva",
+          "image": "https://media-public.canva.com/0xokM/MAEsHc0xokM/1/t.png",
+          "duration": "2 Weeks",
+          "level": "Beginner",
+          "rating": 4.5,
+          "totalRatings": 12,
+          "price": 20,
+          "lessons": 5,
+          "students": 15
+        },
+        {
+          "id": 8,
+          "title": "Mastering Figma for UI/UX Designers",
+          "image": "https://media-public.canva.com/Vkq6Q/MAFNZrVkq6Q/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Intermediate",
+          "rating": 4.8,
+          "totalRatings": 29,
+          "price": 45,
+          "lessons": 11,
+          "students": 42
+        },
+        {
+          "id": 9,
+          "title": "Prototyping and Wireframing for Designers",
+          "image": "https://media-public.canva.com/NLLjE/MAF4d1NLLjE/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Intermediate",
+          "rating": 4.7,
+          "totalRatings": 15,
+          "price": 35,
+          "lessons": 10,
+          "students": 20
+        },
+        {
+          "id": 10,
+          "title": "Advanced Web Design with Adobe XD",
+          "image": "https://media-public.canva.com/DrFvc/MAGG2sDrFvc/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Advanced",
+          "rating": 4.9,
+          "totalRatings": 35,
+          "price": 55,
+          "lessons": 16,
+          "students": 50
+        }
+      ],
+      "id": "d164"
+    },
+    {
+      "title": "Business",
+      "courses": [
+        {
+          "id": 1,
+          "title": "Essentials of Business Strategy",
+          "image": "https://media-public.canva.com/8AjdE/MAFhpS8AjdE/1/tl.png",
+          "duration": "4 Weeks",
+          "level": "Beginner",
+          "rating": 4.7,
+          "totalRatings": 22,
+          "price": 30,
+          "lessons": 10,
+          "students": 40
+        },
+        {
+          "id": 2,
+          "title": "Finance for Non-Financial Professionals",
+          "image": "https://media-public.canva.com/1qfEE/MAGNzN1qfEE/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Beginner",
+          "rating": 4.8,
+          "totalRatings": 18,
+          "price": 35,
+          "lessons": 12,
+          "students": 30
+        },
+        {
+          "id": 3,
+          "title": "Mastering Advance Leadership Skills",
+          "image": "https://media-public.canva.com/QKVIU/MAF41_QKVIU/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Intermediate",
+          "rating": 4.9,
+          "totalRatings": 25,
+          "price": 50,
+          "lessons": 14,
+          "students": 35
+        },
+        {
+          "id": 4,
+          "title": "Building a Successful Startup",
+          "image": "https://media-public.canva.com/MI6u4/MAEukpMI6u4/1/t.png",
+          "duration": "8 Weeks",
+          "level": "Advanced",
+          "rating": 4.6,
+          "totalRatings": 15,
+          "price": 60,
+          "lessons": 16,
+          "students": 25
+        },
+        {
+          "id": 5,
+          "title": "Digital Transformation for Businesses",
+          "image": "https://media-public.canva.com/OzuCg/MAFaCEOzuCg/1/t.png",
+          "duration": "7 Weeks",
+          "level": "Intermediate",
+          "rating": 4.7,
+          "totalRatings": 30,
+          "price": 55,
+          "lessons": 15,
+          "students": 40
+        },
+        {
+          "id": 6,
+          "title": "Effective Project Management Techniques",
+          "image": "https://media-public.canva.com/YWn_M/MAExCEYWn_M/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Beginner",
+          "rating": 4.8,
+          "totalRatings": 28,
+          "price": 40,
+          "lessons": 12,
+          "students": 45
+        },
+        {
+          "id": 7,
+          "title": "Advanced Negotiation Skills",
+          "image": "https://media-public.canva.com/Cw4Kw/MAGHEwCw4Kw/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Advanced",
+          "rating": 4.9,
+          "totalRatings": 35,
+          "price": 65,
+          "lessons": 14,
+          "students": 50
+        },
+        {
+          "id": 8,
+          "title": "Human Resource Management Made Simple",
+          "image": "https://media-public.canva.com/gIREY/MAFPGJgIREY/1/t.png",
+          "duration": "3 Weeks",
+          "level": "Beginner",
+          "rating": 4.5,
+          "totalRatings": 20,
+          "price": 25,
+          "lessons": 8,
+          "students": 20
+        },
+        {
+          "id": 9,
+          "title": "Introduction to Business Analytics",
+          "image": "https://media-public.canva.com/Nxtmw/MAFn7zNxtmw/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Intermediate",
+          "rating": 4.8,
+          "totalRatings": 32,
+          "price": 45,
+          "lessons": 10,
+          "students": 38
+        },
+        {
+          "id": 10,
+          "title": "Marketing Strategies for Entrepreneurs",
+          "image": "https://media-public.canva.com/M7NJg/MAFUVNM7NJg/1/s.png",
+          "duration": "6 Weeks",
+          "level": "Advanced",
+          "rating": 4.7,
+          "totalRatings": 24,
+          "price": 50,
+          "lessons": 13,
+          "students": 30
+        }
+      ],
+      "id": "f250"
+    },
+    {
+      "title": "Marketing",
+      "courses": [
+        {
+          "id": 1,
+          "title": "Social Media Marketing: Strategy and Optimization",
+          "image": "https://media-public.canva.com/PcbAg/MAFO4_PcbAg/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Beginner",
+          "rating": 4.8,
+          "totalRatings": 30,
+          "price": 35,
+          "lessons": 10,
+          "students": 50
+        },
+        {
+          "id": 2,
+          "title": "Content Marketing: Building a Brand through Storytelling",
+          "image": "https://media-public.canva.com/ZyKQU/MAE4oiZyKQU/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Intermediate",
+          "rating": 4.7,
+          "totalRatings": 22,
+          "price": 40,
+          "lessons": 12,
+          "students": 35
+        },
+        {
+          "id": 3,
+          "title": "SEO Mastery: Rank Your Website on Google",
+          "image": "https://media-public.canva.com/Pr4JE/MAFG2HPr4JE/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Intermediate",
+          "rating": 4.9,
+          "totalRatings": 28,
+          "price": 45,
+          "lessons": 14,
+          "students": 40
+        },
+        {
+          "id": 4,
+          "title": "Email Marketing for Small Businesses",
+          "image": "https://media-public.canva.com/W6Mic/MAFieqW6Mic/1/t.png",
+          "duration": "3 Weeks",
+          "level": "Beginner",
+          "rating": 4.6,
+          "totalRatings": 18,
+          "price": 25,
+          "lessons": 8,
+          "students": 20
+        },
+        {
+          "id": 5,
+          "title": "Google Ads Fundamentals: Get Certified",
+          "image": "https://media-public.canva.com/8zQRM/MAFjoo8zQRM/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Beginner",
+          "rating": 4.7,
+          "totalRatings": 24,
+          "price": 30,
+          "lessons": 9,
+          "students": 30
+        },
+        {
+          "id": 6,
+          "title": "Influencer Marketing: Connect with Your Audience",
+          "image": "https://media-public.canva.com/o-RE0/MAFoqPo-RE0/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Intermediate",
+          "rating": 4.8,
+          "totalRatings": 25,
+          "price": 50,
+          "lessons": 11,
+          "students": 45
+        },
+        {
+          "id": 7,
+          "title": "Advanced Digital Marketing Strategies",
+          "image": "https://media-public.canva.com/hDxSA/MADEKKhDxSA/2/s.png",
+          "duration": "8 Weeks",
+          "level": "Advanced",
+          "rating": 4.9,
+          "totalRatings": 33,
+          "price": 60,
+          "lessons": 16,
+          "students": 60
+        },
+        {
+          "id": 8,
+          "title": "Facebook and Instagram Ads Masterclass",
+          "image": "https://media-public.canva.com/YChIs/MAFvPEYChIs/1/t.png",
+          "duration": "4 Weeks",
+          "level": "Intermediate",
+          "rating": 4.8,
+          "totalRatings": 20,
+          "price": 35,
+          "lessons": 10,
+          "students": 32
+        },
+        {
+          "id": 9,
+          "title": "Video Marketing for Business Growth",
+          "image": "https://media-public.canva.com/QzTjs/MAFqksQzTjs/1/t.png",
+          "duration": "5 Weeks",
+          "level": "Advanced",
+          "rating": 4.7,
+          "totalRatings": 26,
+          "price": 45,
+          "lessons": 13,
+          "students": 38
+        },
+        {
+          "id": 10,
+          "title": "Analytics in Marketing: Measure and Improve Performance",
+          "image": "https://media-public.canva.com/iGnmU/MAFyP1iGnmU/1/t.png",
+          "duration": "6 Weeks",
+          "level": "Advanced",
+          "rating": 4.9,
+          "totalRatings": 28,
+          "price": 55,
+          "lessons": 15,
+          "students": 45
+        }
+      ],
+      "id": "111a"
+    }
+  ]
+}

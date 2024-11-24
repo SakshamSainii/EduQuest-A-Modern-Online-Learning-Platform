@@ -1,0 +1,80 @@
+/* buynow.module.css */
+.buyNowOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .buyNowModal {
+    background: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+  }
+  
+  .closeButton:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .courseHeader {
+    margin-bottom: 2rem;
+  }
+  
+  .courseImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .courseTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .detailsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .detailItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .ratingWrapper {
+    display: flex;
+    align-items:center;
+  }

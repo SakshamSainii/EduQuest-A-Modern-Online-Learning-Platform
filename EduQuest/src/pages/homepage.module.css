@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+    scroll-behavior: smooth; /* Add smooth scrolling to the entire page */
+  }
+  
+  .main {
+    flex: 1;
+    margin-bottom: 5px;
+    scroll-margin-top: 80px; /* Adjust this value based on your header height */
+  }
+  
+  .HomeServices {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    margin: 40px;
+  }
+  
+  /* Optional: Add some additional smooth scrolling enhancements */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adjust this value based on your header height */
+  }

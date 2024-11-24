@@ -1,0 +1,116 @@
+.partnersSection {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .headingWrapper {
+    padding: 4rem 4rem 4rem 6rem;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,1) 100%);
+  }
+  
+  .heading {
+    font-size: clamp(3rem, 15vw, 8rem);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .heading span {
+    display: block;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(-100vw);
+    will-change: transform, opacity;
+  }
+  
+  .heading span:last-child {
+    margin-left: 5rem;
+  }
+  
+  /* Animation classes */
+  .slideInOur {
+    animation: slideRight 1s ease forwards;
+  }
+  
+  .slideInPartners {
+    animation: slideRight 1s ease forwards 0.3s;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-100vw);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .imageWrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+  
+  .partnerImage {
+    margin-left: 35px;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .heading span:last-child {
+      margin-left: 6rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .headingWrapper {
+      padding: 2rem 2rem 2rem 4rem;
+    }
+    
+    .heading {
+      letter-spacing: -1px;
+    }
+    
+    .heading span:last-child {
+      margin-left: 4rem;
+    }
+  }
+  
+  /* For very small screens */
+  @media (max-width: 480px) {
+    .headingWrapper {
+      padding: 2rem 1rem 2rem 2rem;
+    }
+    
+    .heading span:last-child {
+      margin-left: 2rem;
+    }
+  }
